@@ -7,11 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="Login" method ="post">
+<form action="index.jsp" method ="post">
  <label>userName</label>
- <input type ="text" name= "userName"/>
+ <input type ="text" name= "userName"/ value="admin">
  <label>userName</label>
- <input type ="text" name= "pwd"/>
+ <input type ="password" name= "pwd" value="admin"/>
  <button type= "submit"> Login</button>
 </form>
 </body>
